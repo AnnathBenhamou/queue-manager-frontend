@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Queue Manager</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Available Queues</h2>
+        <div id="queue-list">
+            <!-- Queue items will be dynamically rendered -->
+        </div>
+    </section>
+    <section>
+        <h2>Queue Details</h2>
+        <form id="queue-form">
+            <label for="queue-select">Select Queue:</label>
+            <select id="queue-select">
+                <option value="">-- Select Queue --</option>
+            </select>
+            <button id="fetch-message" type="button">Go</button>
+        </form>
+        <div id="queue-response">
+            <!-- Message details will be displayed here -->
+        </div>
+    </section>
+</main>
+</body>
+</html>

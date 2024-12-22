@@ -1,0 +1,106 @@
+/* General Reset and Base Styles */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd; /* Off-white background */
+    color: #1a202c; /* Dark text */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff; /* White header background */
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #1a202c;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a {
+    color: #1a202c;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #e2e8f0; /* Light hover effect */
+}
+
+/* Main Container */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #1a202c;
+    margin-bottom: 1rem;
+}
+
+/* Queue Items */
+.queue-item {
+    padding: 1rem;
+    background-color: #f1f5f9; /* Light gray background for items */
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+button {
+    background-color: #1a73e8; /* Voyantis-style navy button */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #185abc; /* Slightly darker blue on hover */
+}
+
+button:disabled {
+    background-color: #a0aec0; /* Disabled state */
+    cursor: not-allowed;
+}
+
+/* Forms and Dropdowns */
+select, input {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 0.5rem;
+}
